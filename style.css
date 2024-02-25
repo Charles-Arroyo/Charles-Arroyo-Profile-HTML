@@ -1,36 +1,62 @@
 header{
-    background-color: #333;
+    background-color: black;
     color: #fff;
     padding: 10px 0;
+    border: 4px outset green;
+    /* border: 4px dotted green; */
 }
 
 nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
+    color: black;
+    
+    
 }
 
 nav li{
     margin: 0 20px;
-
+    
 }
 
 nav a{
     text-decoration: none;
     color: #fff;
+    
 }
 
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
+    
+        background-color: black; /* Dark background for contrast */
+        color: #e0e0e0; /* Light grey text for readability */
+        font-family: 'Courier New', monospace; /* Monospace font for the matrix-like feel */
+      
 }
 img {
 max-width: 100%;
 }
-footer {
-text-align: center;
-padding: 10px;
-background-color: #333;
-color: #fff;
+
+footer{
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmt4NW5uZWE2MjRsZ3dnNmlldzlkZmVheDh1bHFmaHp0ZmxmbHVjYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sULKEgDMX8LcI/giphy.gif');
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border: 4px outset green;
+   
+
+}
+
+.glowing-text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.3em;
+    text-shadow: 0 0 10px #00E5EE, 0 0 20px #00E5EE, 0 0 30px #00E5EE, 0 0 40px #00E5EE, 0 0 50px #00E5EE, 0 0 60px #00E5EE, 0 0 70px #00E5EE; 
+}
+.glowing-textheader {
+    color: limegreen;
+    text-shadow: 0 0 10px #00E5EE, 0 0 20px #00E5EE, 0 0 30px #00E5EE, 0 0 40px #00E5EE, 0 0 50px #00E5EE, 0 0 60px #00E5EE, 0 0 70px #00E5EE; 
 }
